@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:calibri;
+}
+
+body
+{
+    background-color: #ffff;
+}
+
+.main-container
+{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.title-text
+{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.content
+{
+    padding-top: 1rem;
+    line-height: 2.2rem;
+   
+}
+
+.quote
+{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: dosis;
+}
+
+.timeline
+{
+    font-size: 0.9rem;
+    color: black;
+}
+
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.btn-container>button
+{
+    padding: 0.6rem 0.8rem;
+    border: none;
+    color: white;
+    width:6rem;
+}
+.b1
+{
+    background-color: darkblue;
+}
+.b2
+{
+    background-color: orangered;
+}
+
+
+@media screen and (max-width:900px) {
+    .quote
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .quote
+    {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .quote
+    {
+        width: 100%;
+    }
+
+    .main-container
+    {
+        max-width: 100%;
+    }
+}
+
